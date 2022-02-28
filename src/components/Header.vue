@@ -1,6 +1,6 @@
 <template>
   <header
-    class="px-10vw flex flex-col md:flex-row pt-10 items-center"
+    class="flex flex-col md:flex-row pt-10 items-center"
   >
     <h1 class="font-serif hover:font-mono md:flex-1 text-3xl font-black md:justify-start md:text-left text-center text-red-400 transition">
       Jacob's blog
@@ -19,7 +19,7 @@
       </ul>
     </nav>
   </header>
-  <header px-10vw flex md:justify-end justify-center>
+  <header flex md:justify-end justify-center>
     <h2 font-sans text-gray-300 italic>
       The quick brown fox jumps over the lazy dog.
     </h2>
@@ -34,9 +34,9 @@ function getClass(str: string) {
   return ''
 }
 </script>
-<style>
+<style scoped>
 .menu-ul li{
-    @apply inline-block p-5 hover:decoration-red-300 hover:underline text-lg cursor-pointer transition-transform  ease-out  hover:scale-105
+    @apply inline-block px-5 hover:decoration-red-300 hover:underline text-lg cursor-pointer transition-transform  ease-out  hover:scale-105
 }
 .menu-ul li.active{
     @apply underline decoration-red-400

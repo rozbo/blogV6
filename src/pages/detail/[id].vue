@@ -34,7 +34,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="page-container md:p-x15vw pt-20">
+  <section class="page-container md:p-x15vw py-20">
     <div v-if="detail !==undefined" id="post">
       <h1 class="text-center text-3xl my-3">
         {{ detail.title }}
@@ -48,5 +48,5 @@ onMounted(() => {
 </template>
 
 <style>
-@import "github-markdown-css"
+@import "github-markdown-css";
 </style>

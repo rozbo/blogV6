@@ -6,8 +6,11 @@
 
 <route lang="yaml">
 name: about
+meta:
+  background: true
+  color_start: "#fbc2eb"
+  color_end: "#a6c1ee"
 </route>
-
 <script lang="ts" setup>
 import Render from '~/helpers/render'
 

@@ -4,7 +4,7 @@
       <div v-if="loadOk" id="posts" class="mt-10">
         <div
           v-for="item in details" :key="item.id"
-          class="rounded-lg shadow-md border border-gray-100 p-5 mb-12"
+          class="rounded-lg shadow-md border border-red-100 p-5 mb-12"
         >
           <router-link
             :to="'/detail/'+item.number"
@@ -29,7 +29,7 @@
             </div>
           </router-link>
         </div>
-        <div class="">
+        <div class="pb-10">
           <p class="text-center text-sm">
             Page {{ currentPage }} of {{ totalPage }}
           </p>
