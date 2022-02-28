@@ -5,7 +5,7 @@
 </template>
 
 <route lang="yaml">
-name: home
+name: about
 </route>
 
 <script lang="ts" setup>

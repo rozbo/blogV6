@@ -7,11 +7,14 @@
     </h1>
     <nav class="md:flex-1 flex flex-col md:flex-row justify-end md:juestify-center">
       <ul class="menu-ul">
-        <li :class="getClass('list')">
-          list
+        <li :class="getClass('home')" @click="$router.push({name: 'home'})">
+          HOME
         </li>
-        <li :class="getClass('about')">
-          about
+        <li :class="getClass('list')" @click="$router.push({name: 'list',params:{id:1}})">
+          LIST
+        </li>
+        <li :class="getClass('about')" @click="$router.push({name: 'about'})">
+          ABOUT
         </li>
       </ul>
     </nav>
@@ -33,7 +36,7 @@ function getClass(str: string) {
 </script>
 <style>
 .menu-ul li{
-    @apply inline-block p-5 hover:decoration-red-300 hover:underline text-xl cursor-pointer transition-transform  ease-out  hover:scale-105
+    @apply inline-block p-5 hover:decoration-red-300 hover:underline text-lg cursor-pointer transition-transform  ease-out  hover:scale-105
 }
 .menu-ul li.active{
     @apply underline decoration-red-400

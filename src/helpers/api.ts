@@ -73,6 +73,7 @@ export function getDetail(id): any {
     }
     else {
       http.get(`${githubURl}/${id}`).then((response) => {
+        processLabels(response)
         itemsCache[id] = response
         console.log('by get ---')
         resolve(itemsCache[id])

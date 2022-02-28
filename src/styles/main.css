@@ -5,3 +5,9 @@ body,
   margin: 0;
   padding: 0;
 }
+
+
+
+.page-container{
+  @apply min-h-screen px-2 
+}
