@@ -1,7 +1,7 @@
 <template>
-  <main font-sans>
+  <main font-sans class="px-2vw md:px-10vw min-h-screen">
     <Header />
     <router-view />
-    <Footer />
   </main>
+  <Footer />
 </template>

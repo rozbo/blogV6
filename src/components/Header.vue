@@ -1,6 +1,6 @@
 <template>
   <header
-    class="px-10vw flex flex-col md:flex-row mt-10 items-center"
+    class="px-10vw flex flex-col md:flex-row pt-10 items-center"
   >
     <h1 class="font-serif hover:font-mono md:flex-1 text-3xl font-black md:justify-start md:text-left text-center text-red-400 transition">
       Jacob's blog

@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <section ref="sectionRef" class="min-h-screen md:px-15vw px-2">
+    <section ref="sectionRef" class=" md:px-15vw">
       <div v-if="loadOk" id="posts" class="mt-10">
         <div
           v-for="item in details" :key="item.id"

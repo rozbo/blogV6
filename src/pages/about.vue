@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <section class="min-h-screen md:px-15vw px-2" />
+    <section class="md:px-15vw" />
   </transition>
 </template>
 
