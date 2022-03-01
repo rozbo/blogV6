@@ -21,7 +21,3 @@ import Render from '~/helpers/render'
 
 Render.loading_end()
 </script>
-
-<style>
-
-</style>

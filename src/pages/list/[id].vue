@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <section ref="sectionRef" class=" md:px-15vw">
-      <div v-if="loadOk" id="posts" class="mt-10">
+      <div v-if="loadOk" id="posts" class="pt-20">
         <div
           v-for="item in details" :key="item.id"
           class="rounded-lg shadow-md border border-red-100 p-5 mb-12"
@@ -97,7 +97,7 @@ function loadList(page = 1) {
       totalPage.value = Math.ceil(res.total_count / 10)
       loadOk.value = true
       window.scroll({
-        top: sectionRef.value.offsetTop - 30,
+        top: 0,
         left: 0,
         behavior: 'smooth',
       })
