@@ -1,0 +1,1 @@
+import{d as a,o,c as t,w as n,T as s,a as c}from"./vendor.c6c2e2cc.js";import{R as r}from"./index.58b8fc7c.js";var e={};const i=c("section",{class:"md:px-15vw"},null,-1),d=a({setup(f){return r.loading_end(),(p,_)=>(o(),t(s,{name:"fade"},{default:n(()=>[i]),_:1}))}});typeof e=="function"&&e(d);export{d as default};

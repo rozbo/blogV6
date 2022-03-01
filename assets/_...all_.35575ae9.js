@@ -1,0 +1,1 @@
+import{_ as e}from"./index.58b8fc7c.js";import{o as t,b as s,a as c}from"./vendor.c6c2e2cc.js";const o={},r={class:"mx-15vw min-h-screen mt-15 flex items-center justify-center translate-y--1/5"},_=c("h1",{class:"text-center text-2xl"}," Not Found ! ",-1),n=[_];function a(i,l){return t(),s("div",r,n)}var f=e(o,[["render",a]]);export{f as default};
